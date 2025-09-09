@@ -5,14 +5,14 @@
            fetch="https://github.com/" />
 
     <remote  name="gitlab"
-           fetch="ssh://git@gitlab.com/omnirom" />
+           fetch="https://gitlab.com/omnirom" />
 
     <remote  name="omnirom"
            fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
 
     <remote  name="omnirom-ssh"
-           fetch="ssh://git@github.com/omnirom"
+           fetch="https://github.com/omnirom"
            review="gerrit.omnirom.org" />
 
     <project path="build/make" name="android_build" remote="omnirom" revision="android-16" groups="pdk,sysui-studio" >
